@@ -1,0 +1,36 @@
+.user-auther {
+    display: inline-block;
+    position: relative;
+    max-width: 100%;
+}
+.user-auther--image {
+    border-radius: 50%;
+    object-fit: cover;
+}
+img {
+    border: 0;
+    vertical-align: middle;
+    width: 50%;
+    height: 84px;
+    width: 84px;
+}
+.card-image{
+    margin-bottom:20px;
+    margin-top: 20px;
+}
+.card-title{
+    margin-bottom:8px;
+    margin-top: 8px;
+}
+.card {
+    background: white;
+  }
+.card:hover {
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
+  }
+
+.title h5{
+    color: grey;
+    margin-top: 30px;
+    margin-bottom:15px;
+}
