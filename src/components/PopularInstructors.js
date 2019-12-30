@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import AutherCard from './AutherCard';
-import './PopularInstructors.css';
+import AuthorCard from './AuthorCard';
+import './style/PopularInstructors.css';
 
 
 class PolpularInstructors extends Component {
@@ -12,7 +12,7 @@ class PolpularInstructors extends Component {
 					<h5>Popular Instructors</h5>
 				</div>
 				<div className="auther">
-					<div className="row">{authors.map((author, i) => <AutherCard author={author} key={i} />)}</div>
+					<div className="row">{authors.map((author, i) => <AuthorCard author={author} key={i} />)}</div>
 				</div>
 			</div>
 		);

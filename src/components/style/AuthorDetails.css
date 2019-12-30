@@ -1,0 +1,104 @@
+.header{
+    padding: 34px 0;
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+}
+ .header-content{
+    background-color:#007791;
+ }
+ h1 {
+     color: #fff;
+     font-size: 30px;
+     font-weight: 400;
+     line-height: 1.287;
+     margin: 0;
+ }
+ h2 {
+     color: #fff;
+     font-size: 18px;
+    font-weight: 400;
+    line-height: 1.287;
+    margin: 7px 0 0;
+ }
+ .row {
+    margin-bottom: 30px;
+    margin-top: 30px;
+ }
+
+ .col-sm-3 {
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+ }
+ .user-auther {
+    display: inline-block;
+    position: relative;
+    max-width: 100%;
+}
+.user-auther--image {
+    border-radius: 50%;
+    object-fit: cover;
+}
+img {
+    border: 0;
+    vertical-align: middle;
+    height: 84px;
+    width: 84px;
+}
+.image{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.instructor--social{
+    margin: 20px 0 0;
+    text-align: center;
+}
+.social__link{
+    font-size: 21px;
+    line-height: 35px;
+    margin: 0 7px;}
+
+a{
+    color: #007791;
+    background-color: transparent;
+    font-weight: 400;
+    text-decoration: none;
+    }
+.col-sm-9{
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;}
+.full-biography{
+     overflow: hidden;
+    position: relative;
+}
+p{
+    margin-top: 5px;
+}
+.instructor-stats{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+    padding-left: 0;
+}
+ul{
+    list-style-type:none
+}
+li {
+    border-left: 1px solid rgba(41,48,59,.25);
+    padding: 0 15px;
+    text-align: left;
+}
+.small {
+    font-size: 86%;
+}
+.a2 {
+    font-size: 24px;
+    font-weight: 300;
+}

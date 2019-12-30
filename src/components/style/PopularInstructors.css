@@ -19,14 +19,14 @@ img {
     margin-top: 20px;
 }
 .card-title{
-    margin-bottom:8px;
-    margin-top: 8px;
+    margin-bottom:6px;
+    margin-top: 6px;
 }
 .card {
     background: white;
   }
 .card:hover {
-    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
   }
 
 .title h5{

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './PopularTopics.css';
+import './style/PopularTopics.css';
 class PolpularTopics extends Component {
 	render() {
 		const categories = this.props.authorTopics;
@@ -8,18 +8,16 @@ class PolpularTopics extends Component {
 				<div className="title">
 					<h5>Popular Topics</h5>
 				</div>
-				<div className="topics">
-					{categories.map((categorie, i) => (
-						<div className="row" key={i}>
-							{categorie.topics.map((topic, i) => (
-								<div className="col-lg-3">
-									<div className="card" key={i}>
-										<div className="card-body text-center">{topic}</div>
-									</div>
+				<div className="row">
+					{categories.map((categorie, i) => {
+						return categorie.topics.map((topic, i) => (
+							<div className="col-sm-3" key={i}>
+								<div className="card">
+									<div className="card-body text-center">{topic}</div>
 								</div>
-							))}
-						</div>
-					))}
+							</div>
+						));
+					})}
 				</div>
 			</div>
 		);
