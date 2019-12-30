@@ -13,7 +13,7 @@ class PolpularTopics extends Component {
 						return categorie.topics.map((topic, i) => (
 							<div className="col-sm-3" key={i}>
 								<div className="card">
-									<div className="card-body text-center">{topic}</div>
+									<div className="card-body topic text-center">{topic}</div>
 								</div>
 							</div>
 						));

@@ -22,13 +22,19 @@ img {
     margin-bottom:6px;
     margin-top: 6px;
 }
+.card-title h5 {
+    color: rgb(77, 76, 76);
+}
 .card {
     background: white;
   }
 .card:hover {
-    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+    box-shadow: 0 0 11px rgba(134, 134, 134, 0.2); 
+    color: 'none';
   }
-
+.details{
+    color:grey;
+}
 .title h5{
     color: grey;
     margin-top: 30px;

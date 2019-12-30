@@ -1,4 +1,68 @@
 .img{
-    height: 45px;
+    height: 50px;
     width: 100%
+}
+.container-fluid{
+    padding-left: 30px;
+    background: #fff;
+    box-shadow: 0 0 1px 1px rgba(20,23,28,.1), 0 3px 1px 0 rgba(20,23,28,.1);
+    display: block;
+    position: relative;
+    z-index: 1010;
+}
+.navbar-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.header-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 20px;
+    width: 600px;
+}
+.header-right{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.navigation-header{
+    display: flex;
+    box-sizing: border-box;
+    height: 65px;
+    max-width: 1440px;
+    margin: auto;
+    padding: 0 20px;
+    position: relative;
+    z-index: 1011;   
+}
+.navbar-brand-cetegory{
+    font-size: 14px;
+    padding: 10px 0;
+    margin-left: 20px;
+    margin-top: 4px;
+}
+.navbar-brand-search{
+    margin: 0 25px;
+    max-width: 630px;
+    width: 100%;
+}
+.navbar-brand-udemy-business{
+    font-size: 13px;
+    margin: 0 2px;
+    padding: 10px 0;
+}
+.udemy{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    color: #505763;
+    font-weight: 400;
+    height: 45px;
+    line-height: 20px;
+    padding: 12px 15px;
 }

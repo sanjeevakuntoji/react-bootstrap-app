@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import AuthorCard from './AuthorCard';
-import './style/PopularInstructors.css';
-
 
 class PolpularInstructors extends Component {
 	render() {

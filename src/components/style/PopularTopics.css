@@ -26,8 +26,12 @@
     margin-top: 5px;
     margin-bottom:5px;
 }
-.card-body{
+.topic{
     padding-top: 10px;
     padding-bottom: 10px;
     display: block;
+    color: rgb(71, 71, 71);
+}
+.topic:hover{
+    color: #007791;
 }
