@@ -1,7 +1,6 @@
 import React from 'react';
 import './style/AuthorDetails.css';
-import { faHome } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import * as FontAwesome from 'react-icons/lib/fa'
 class AuthorDetails extends React.Component {
    
 	render() {
@@ -32,10 +31,12 @@ class AuthorDetails extends React.Component {
 									/>
 								</div>
 								<div className="instructor--social">
-									<a href="https://twitter.com/ste_grider" className="social__link">
-										<i className="fa fa-twitter" />
-										<FontAwesomeIcon icon={faHome} />
-									</a>
+									<div className="social__link">
+                                    <FontAwesome.FaGlobe className="link" />
+                                    <FontAwesome.FaTwitter className="link"  />
+                                    <FontAwesome.FaYoutube  className="link" />
+                                   
+									</div>
 								</div>
 							</div>
 							<div className="col-sm-9">

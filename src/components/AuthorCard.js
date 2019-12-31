@@ -12,7 +12,7 @@ const AuthorCard = (props) => {
 				  <img className="user-auther user-auther--image " src={authors.image} alt="auther images" />
 				</div>
 				<div className="card-title">
-				  <h5>{authors.name}</h5>
+				  <h5 className="ellipsis">{authors.name}</h5>
 				</div>
 				<div className="card-topic details">{authors.topics}</div>
 				<div className="card-student details">782.653 students</div>

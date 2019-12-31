@@ -98,7 +98,8 @@ li {
 .small {
     font-size: 86%;
 }
-.a2 {
-    font-size: 24px;
-    font-weight: 300;
+.link{
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #007791;
 }

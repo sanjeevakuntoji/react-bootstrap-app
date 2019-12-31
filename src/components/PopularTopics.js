@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './style/PopularTopics.css';
 class PolpularTopics extends Component {
 	render() {
-		const categories = this.props.authorTopics;
+        const categories = this.props.authorTopics;
 		return (
 			<div className="container">
 				<div className="title">

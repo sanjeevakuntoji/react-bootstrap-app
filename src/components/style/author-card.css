@@ -3,6 +3,11 @@
     position: relative;
     max-width: 100%;
 }
+.ellipsis{
+    text-overflow: ellipsis !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+}
 .user-auther--image {
     border-radius: 50%;
     object-fit: cover;
@@ -22,6 +27,7 @@ img {
     margin-bottom:6px;
     margin-top: 6px;
 }
+ 
 .card-title h5 {
     color: rgb(77, 76, 76);
 }
