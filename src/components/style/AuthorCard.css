@@ -3,7 +3,7 @@
     position: relative;
     max-width: 100%;
 }
-.ellipsis{
+h5.ellipsis{
     text-overflow: ellipsis !important;
     white-space: nowrap !important;
     overflow: hidden !important;

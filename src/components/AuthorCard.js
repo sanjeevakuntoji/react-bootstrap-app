@@ -1,8 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './style/author-card.css';
+import './style/AuthorCard.css';
 const AuthorCard = (props) => {
 	const authors = props.author;
+	console.log(authors)
 	return (
 		<div className="col-md-3" key={authors.key}>
 		  <Link to={{ pathname: '/user', state: { author: authors } }} style={{textDecoration:"none"}}>
@@ -12,9 +13,9 @@ const AuthorCard = (props) => {
 				  <img className="user-auther user-auther--image " src={authors.image} alt="auther images" />
 				</div>
 				<div className="card-title">
-				  <h5 className="ellipsis">{authors.name}</h5>
+				  <h5 style={{textOverflow: 'ellipsis',whiteSpace:" nowrap",overflow:" hidden"}}>{authors.name}</h5>
 				</div>
-				<div className="card-topic details">{authors.topics}</div>
+				<div className="card-topic details" style={{textOverflow: 'ellipsis',whiteSpace:" nowrap",overflow:" hidden"}}>{authors.topics}</div>
 				<div className="card-student details">782.653 students</div>
 				<div className="card-courses details">33 courses</div>
 			  </div>

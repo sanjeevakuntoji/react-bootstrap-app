@@ -1,10 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-// import { FaShoppingCart } from '@fortawesome/free-solid-svg-icons';
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import * as FontAwesome from 'react-icons/lib/fa'
-
-import '../components/style/header.css';
+import { Form, FormControl} from 'react-bootstrap';
+import '../style/header.css';
 const Header = () => {
 	return (
 		<nav>
@@ -21,14 +19,20 @@ const Header = () => {
 						</Link>
 					</div>
 					<div className="header-left">
-						<div class="navbar-brand-cetegory">
+						<div className="navbar-brand-cetegory">
 							<Link to="/">
                             {/* <FontAwesomeIcon icon={FaShoppingCart} /> */}
                             <span class="fontawsome">  <FontAwesome.FaTh/></span>
 								<span>Categories</span>
 							</Link>
 						</div>
-						{/* <div className="navbar-brand-search" /> */}
+                        {/* <div className="navbar-brand-search" /> */}
+                        <div className="navbar-brand-search">
+                        <Form inline>
+                        <FormControl type="text" placeholder="Search" className="search" />
+                            <button type="button" class="btn btn-search"><FontAwesome.FaSearch /></button>
+                        </Form>
+                        </div>
 					</div>
                     <div className="header-right" >
                         <div className="navbar-brand-udemy-business">

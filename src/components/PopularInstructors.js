@@ -4,6 +4,7 @@ import AuthorCard from './AuthorCard';
 class PolpularInstructors extends Component {
 	render() {
 		const authors = this.props.authorDetails;
+		console.log(authors)
 		return (
 			<div className="container">
 				<div className="title">
