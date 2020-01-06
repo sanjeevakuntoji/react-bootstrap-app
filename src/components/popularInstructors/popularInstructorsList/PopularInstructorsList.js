@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import AuthorCard from './AuthorCard';
+import PopularInstructor from '../popularInstructor/PopularInstructor';
 
 class PolpularInstructors extends Component {
 	render() {
@@ -12,11 +12,10 @@ class PolpularInstructors extends Component {
 				</div>
 				<div className="auther">
                     <div className="row">{authors.map((author, i) =>
-                         <AuthorCard author={author} key={i} />)}</div>
+                         <PopularInstructor author={author} key={i} />)}</div>
 				</div>
 			</div>
 		);
 	}
 }
-
-export default PolpularInstructors;
+export default PolpularInstructors

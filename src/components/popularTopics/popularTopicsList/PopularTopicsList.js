@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import './style/PopularTopics.css';
-class PolpularTopics extends Component {
+import './PopularTopicsList.css';
+class PopularTopicsList extends Component {
 	render() {
-        const categories = this.props.authorTopics;
+		const categories = this.props.authorTopics;
 		return (
 			<div className="container">
 				<div className="title">
@@ -16,7 +16,7 @@ class PolpularTopics extends Component {
 									<div className="card-body topic text-center">{topic}</div>
 								</div>
 							</div>
-						));
+						))
 					})}
 				</div>
 			</div>
@@ -24,4 +24,4 @@ class PolpularTopics extends Component {
 	}
 }
 
-export default PolpularTopics;
+export default PopularTopicsList;

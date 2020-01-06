@@ -1,7 +1,10 @@
 import React from 'react';
-import './style/AuthorDetails.css';
+import './PopularInstructorDetails.css';
 import * as FontAwesome from 'react-icons/lib/fa'
-class AuthorDetails extends React.Component {
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGlobe} from '@fortawesome/free-solid-svg-icons'
+import {faYoutube, faTwitter } from '@fortawesome/free-brands-svg-icons'
+class PopularInstructorDetails extends React.Component {
    
 	render() {
         const  {author} = this.props.location.state;
@@ -35,7 +38,10 @@ class AuthorDetails extends React.Component {
                                     <FontAwesome.FaGlobe className="link" />
                                     <FontAwesome.FaTwitter className="link"  />
                                     <FontAwesome.FaYoutube  className="link" />
-                                   
+                                    <FontAwesomeIcon icon={faTwitter} />
+                                    <FontAwesomeIcon icon={faYoutube} />
+                                    <FontAwesomeIcon icon={faGlobe} />
+                                
 									</div>
 								</div>
 							</div>
@@ -69,4 +75,4 @@ class AuthorDetails extends React.Component {
 	}
 }
 
-export default AuthorDetails;
+export default PopularInstructorDetails;

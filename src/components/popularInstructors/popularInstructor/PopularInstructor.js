@@ -1,9 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './style/AuthorCard.css';
-const AuthorCard = (props) => {
+import './PopularInstructor.css';
+const PopularInstructor = (props) => {
 	const authors = props.author;
-	console.log(authors)
 	return (
 		<div className="col-md-3" key={authors.key}>
 		  <Link to={{ pathname: '/user', state: { author: authors } }} style={{textDecoration:"none"}}>
@@ -25,4 +24,4 @@ const AuthorCard = (props) => {
 	  );
 };
 
-export default AuthorCard;
+export default PopularInstructor;

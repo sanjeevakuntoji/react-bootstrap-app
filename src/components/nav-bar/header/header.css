@@ -36,19 +36,6 @@
     position: relative;
     z-index: 1011;   
 }
-.navbar-brand-cetegory{
-    font-size: 14px;
-    padding: 10px 10px 10px 10px;
-
-    margin-top: 4px;
-    color: #505763;
-}
-.navbar-brand-cetegory:hover {
-    background-color: #ececec;
-    border: solid 1px #dbdada;
-    text-decoration: none;
-    color: #505763;
-}
 .navbar-brand-search{
     width: 80%;
 }
@@ -162,5 +149,8 @@
 }
 span{
     color: #505763;
-    text-decoration: none;
+    text-decoration: none !important;
+}
+.dropdown-button .dropdown-toggle .btn .btn-primary{
+    color: #505763;
 }
